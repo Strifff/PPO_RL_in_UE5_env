@@ -1,0 +1,17 @@
+name: PPOUE
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11.8 # for Unreal Enigne support
+  - pip
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - pytorch
+  - pip:
+      - cloc
+      - tqdm
+      - unreal
